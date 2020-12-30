@@ -78,7 +78,7 @@ def on_chat_message(msg):
     else:
        bot.sendMessage(chat_id,"usa il comando /help per saperne di più")
        
-TOKEN = '1464755124:AAHy7iBxhKWyXD1bUmCR3ZVVgESBae_9ies'
+TOKEN = ''
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
